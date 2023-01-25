@@ -1,15 +1,15 @@
-import { 
-  createBrowserRouter, 
-  createRoutesFromElements, 
-  Route, 
-  RouterProvider 
-} from 'react-router-dom'
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from 'react-router-dom';
 
 // layouts and pages
-import RootLayout from './layouts/RootLayout'
-import Dashboard from './pages/Dashboard'
-import Create from './pages/Create'
-import Profile from './pages/Profile'
+import RootLayout from './layouts/RootLayout';
+import Dashboard from './pages/Dashboard';
+import Create from './pages/Create';
+import Profile from './pages/Profile';
 
 // router and routes
 const router = createBrowserRouter(
@@ -20,12 +20,12 @@ const router = createBrowserRouter(
       <Route path="profile" element={<Profile />} />
     </Route>
   )
-)
+);
 
 function App() {
-  return (
-    <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
+
+// #3
