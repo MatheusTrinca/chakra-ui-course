@@ -10,5 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </ChakraProvider>
   </React.StrictMode>
 );
-
-// #7 6:40 React query ->

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "dev:server": "json-server -w   ./data/db.json"
+    "dev:server": "json-server -w ./data/db.json"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",

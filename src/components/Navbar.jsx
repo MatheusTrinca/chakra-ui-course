@@ -11,7 +11,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <Flex as="nav" p="10px" alignItems="center">
+    <Flex as="nav" p="10px" alignItems="center" mb="40px">
       <Heading as="h1">Daily Tasks</Heading>
 
       <Spacer />
